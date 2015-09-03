@@ -1,0 +1,37 @@
+
+
+         BBBBB      IIIIIIII    BBBBB     LL         EEEEEEEE 
+         BB  BBB       II       BB  BBB   LL         EE  
+         BB  BBB       II       BB  BBB   LL         EE
+         BBBBBB        II       BBBBBB    LL         EEEEE
+         BB  BBB       II       BB  BBB   LL         EE
+         BB  BBB       II       BB  BBB   LL         EE
+         BBBBB      IIIIIIII    BBBBB     LLLLLLLL   EEEEEEEE
+
+               
+                                 
+                               
+                                 
+             BBBBB ________             _______ BBBBB
+         BBBBBBB___       _____     ____        ____   BL
+       BBBBBB ____             _ v  _               ___ B
+       BBB                        \                     \BL
+        BBB\\\                     \                     \B
+         BBL\\\    _____________    \    ______________   \BL
+          BBB\\\    ----- \ -----    \    ----- \ -----    \B
+           BBL\\\    ----- \ -----    \    ----- \ -----    \BL
+            BBB\\\    ----- \ -----    \    ----- \ -----    \B
+             BBL\\\    ----- \ -----    \    ----- \ -----    \BL
+              BBB\\\    ----- \ -----    \    ----- \ -----    \B
+               BBL\\\    ----- \ -----    \    ----- \ -----    \BL
+                BBB\\\    ----- \ -----    \    ----- \ -----    \B
+                 BBL\\\    ----- \ -----    \    ----- \ -----    \BL
+                  BBB\\\    ----- \ -----    \    ----- \ -----    \B
+                   BBL\\\                     \                     \BL
+                    BBB\\\  _  ________  _     \     __  ___ __ _    \B
+                     BBL    ____  ____ ______   ^  __ __ ____ __ ___  BB
+                      BBB   __ ___ ____ ___ __     ___ ___ ___ _ ____ BBB
+                       BBBBBBBBBBBBBBBBBBBBBBB BBBB BBBBBBBBBBBBBBBBBBBBBB
+                        BBBBBBBBBBBBBBBBBBBBBB  BB  BBBBBBBBBBBBBBBBBBBBB
+
+EOD

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{337B4727-E852-4065-B187-067DEE9C2FEB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CS172_FINAL_PROJECT</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Books.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Store.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Books.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AV1611text\1Chronicles.txt" />
+    <Text Include="AV1611text\1Corinthians.txt" />
+    <Text Include="AV1611text\1John.txt" />
+    <Text Include="AV1611text\1Kings.txt" />
+    <Text Include="AV1611text\1Peter.txt" />
+    <Text Include="AV1611text\1Samuel.txt" />
+    <Text Include="AV1611text\1Thessalonians.txt" />
+    <Text Include="AV1611text\1Timothy.txt" />
+    <Text Include="AV1611text\2Chronicles.txt" />
+    <Text Include="AV1611text\2Corinthians.txt" />
+    <Text Include="AV1611text\2John.txt" />
+    <Text Include="AV1611text\2Kings.txt" />
+    <Text Include="AV1611text\2Peter.txt" />
+    <Text Include="AV1611text\2Samuel.txt" />
+    <Text Include="AV1611text\2Thessalonians.txt" />
+    <Text Include="AV1611text\2Timothy.txt" />
+    <Text Include="AV1611text\3John.txt" />
+    <Text Include="AV1611text\Acts.txt" />
+    <Text Include="AV1611text\Amos.txt" />
+    <Text Include="AV1611text\ArtBible.txt" />
+    <Text Include="AV1611text\Colossians.txt" />
+    <Text Include="AV1611text\Daniel.txt" />
+    <Text Include="AV1611text\Dedicatory.txt" />
+    <Text Include="AV1611text\Deuteronomy.txt" />
+    <Text Include="AV1611text\Ecclesiastes.txt" />
+    <Text Include="AV1611text\Ephesians.txt" />
+    <Text Include="AV1611text\Esther.txt" />
+    <Text Include="AV1611text\Exodus.txt" />
+    <Text Include="AV1611text\Ezekiel.txt" />
+    <Text Include="AV1611text\Ezra.txt" />
+    <Text Include="AV1611text\Galatians.txt" />
+    <Text Include="AV1611text\Genesis.txt" />
+    <Text Include="AV1611text\Habakkuk.txt" />
+    <Text Include="AV1611text\Haggai.txt" />
+    <Text Include="AV1611text\Hebrews.txt" />
+    <Text Include="AV1611text\Hosea.txt" />
+    <Text Include="AV1611text\Isaiah.txt" />
+    <Text Include="AV1611text\James.txt" />
+    <Text Include="AV1611text\Jeremiah.txt" />
+    <Text Include="AV1611text\Job.txt" />
+    <Text Include="AV1611text\Joel.txt" />
+    <Text Include="AV1611text\John.txt" />
+    <Text Include="AV1611text\Jonah.txt" />
+    <Text Include="AV1611text\Joshua.txt" />
+    <Text Include="AV1611text\Jude.txt" />
+    <Text Include="AV1611text\Judges.txt" />
+    <Text Include="AV1611text\Lamentations.txt" />
+    <Text Include="AV1611text\Leviticus.txt" />
+    <Text Include="AV1611text\Luke.txt" />
+    <Text Include="AV1611text\Malachi.txt" />
+    <Text Include="AV1611text\Mark.txt" />
+    <Text Include="AV1611text\Matthew.txt" />
+    <Text Include="AV1611text\Micah.txt" />
+    <Text Include="AV1611text\Nahum.txt" />
+    <Text Include="AV1611text\Nehemiah.txt" />
+    <Text Include="AV1611text\Numbers.txt" />
+    <Text Include="AV1611text\Obadiah.txt" />
+    <Text Include="AV1611text\Philemon.txt" />
+    <Text Include="AV1611text\Philippians.txt" />
+    <Text Include="AV1611text\Preface.txt" />
+    <Text Include="AV1611text\Preface_w_footnotes.txt" />
+    <Text Include="AV1611text\Proverbs.txt" />
+    <Text Include="AV1611text\Psalms.txt" />
+    <Text Include="AV1611text\Revelation.txt" />
+    <Text Include="AV1611text\Romans.txt" />
+    <Text Include="AV1611text\Ruth.txt" />
+    <Text Include="AV1611text\SongofSolomon.txt" />
+    <Text Include="AV1611text\Titus.txt" />
+    <Text Include="AV1611text\Zechariah.txt" />
+    <Text Include="AV1611text\Zephaniah.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

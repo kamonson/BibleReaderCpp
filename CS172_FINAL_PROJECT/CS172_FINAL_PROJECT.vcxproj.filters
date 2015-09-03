@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Books.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Books.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="AV1611text\1Chronicles.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\1Corinthians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\1John.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\1Kings.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\1Peter.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\1Samuel.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\1Thessalonians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\1Timothy.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2Chronicles.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2Corinthians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2John.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2Kings.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2Peter.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2Samuel.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2Thessalonians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\2Timothy.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\3John.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Acts.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Amos.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\ArtBible.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Colossians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Daniel.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Dedicatory.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Deuteronomy.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Ecclesiastes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Ephesians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Esther.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Exodus.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Ezekiel.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Ezra.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Galatians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Genesis.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Habakkuk.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Haggai.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Hebrews.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Hosea.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Isaiah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\James.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Jeremiah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Job.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Joel.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\John.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Jonah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Joshua.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Jude.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Judges.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Lamentations.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Leviticus.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Luke.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Malachi.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Mark.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Matthew.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Micah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Nahum.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Nehemiah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Numbers.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Obadiah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Philemon.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Philippians.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Preface.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Preface_w_footnotes.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Proverbs.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Psalms.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Revelation.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Romans.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Ruth.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\SongofSolomon.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Titus.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Zechariah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="AV1611text\Zephaniah.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
